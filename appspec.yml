@@ -3,5 +3,15 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+headers:
+   - filename: '^assets.*\.js$'
+     expires: '+3 years'
+     cache_control: 'max-age=94608000'
+     content_type: 'application/javascript'
+   - filename: '^test-folder-omar.*\.css$'
+     expires: '+3 years'
+     cache_control: 'max-age=94608000'
+     content_type: 'text/css'
 hooks:
+
  
