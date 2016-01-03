@@ -8,7 +8,7 @@ headers:
      expires: '+3 years'
      cache_control: 'max-age=94608000'
      content_type: 'application/javascript'
-   - filename: '^test-folder-omar\.css$'
+   - filename: 'test-folder-omar\test-file.css$'
      expires: '+3 years'
      cache_control: 'max-age=94608000'
      content_type: 'text/css'
