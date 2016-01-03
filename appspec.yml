@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /test-folder-omar/test-file.html
+  - source: /index.html
     destination: /var/www/html/
 hooks:
  
